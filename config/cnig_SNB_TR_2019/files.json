@@ -1,0 +1,34 @@
+{
+    "id": "5bdd23b2fe5de31d6e54df6482425f9c",
+    "name": "cnig_SNB_TR_2019",
+    "title": "cnig_SNB_TR_2019",
+    "description": "Standard National de données dessertes pour le transport de bois",
+    "constraints": [],
+    "files": [
+        {
+            "id": "30d1100a50dd5cdd2e0a8206836b1513",
+            "name": "cnig_SNB_ITDF_2019",
+            "title": "cnig_SNB_ITDF_2019",
+            "path": "cnig_SNB_[aA-zZ]{4}_[0-9]{8}",
+            "type": "table",
+            "mandatory": "WARN"
+        },
+        {
+            "id": "00438c830bee0b934a4b785daf7e1ed5",
+            "name": "cnig_SNB_ITBR_2019",
+            "title": "cnig_SNB_ITBR_2019",
+            "path": "cnig_SNB_[aA-zZ]{4}_[0-9]{8}",
+            "type": "table",
+            "mandatory": "WARN"
+        },
+        {
+            "id": "9e842fa2b71015c28e737b10b60a8013",
+            "name": "cnig_SNB_ITCO_2019",
+            "title": "cnig_SNB_ITCO_2019",
+            "path": "cnig_SNB_[aA-zZ]{4}_[0-9]{8}",
+            "type": "table",
+            "mandatory": "WARN"
+        }
+    ],
+    "codes": []
+}

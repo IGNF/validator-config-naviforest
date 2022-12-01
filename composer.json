@@ -1,0 +1,11 @@
+{
+  "name": "ign/validator-config-naviforest",
+  "description": "Fichiers de configuration du validateur pour le modèle - Standard National de données dessertes pour le transport de bois",
+  "authors": [
+      {
+          "name": "Christopher De Barros",
+          "email": "Christopher.De-Barros@ign.fr"
+      }
+  ]
+}
+

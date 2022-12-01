@@ -1,0 +1,18 @@
+{
+    "id": "a74dc634ab68a80658124f62a62f17d4",
+    "name": "cnig_SNB_CC_2019",
+    "title": "cnig_SNB_CC_2019",
+    "description": "Contraintes de circulation",
+    "constraints": [],
+    "files": [
+        {
+            "id": "4de3e95678ae7e4194845ffd719ca05f",
+            "name": "cnig_SNB_CC_2019",
+            "title": "cnig_SNB_CC_2019",
+            "path": "cnig_SNB_CC_[aA-zZ]{4}_[0-9]{8}",
+            "type": "table",
+            "mandatory": "WARN"
+        }
+    ],
+    "codes": []
+}
