@@ -1,0 +1,4 @@
+id,parent_id,abstract,enabled,folder_name,metadata_specification,name,title,description
+a6ddeab1113438d36acaba7eea753a87,,f,t,,,cnig_SNB_EQ_2019,cnig_SNB_EQ_2019,Classe des équipements liés au stockage et au transport de bois en forêt
+5bdd23b2fe5de31d6e54df6482425f9c,,f,f,,,cnig_SNB_TR_2019,cnig_SNB_TR_2019,Standard National de données dessertes pour le transport de bois
+a74dc634ab68a80658124f62a62f17d4,,f,t,,,cnig_SNB_CC_2019,cnig_SNB_CC_2019,Contraintes de circulation
