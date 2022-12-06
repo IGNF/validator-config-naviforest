@@ -11,7 +11,8 @@
             "title": "cnig_SNB_EQ_2019",
             "path": "cnig_SNB_EQ_[aA-zZ]{4}_[0-9]{8}",
             "type": "table",
-            "mandatory": "WARN"
+            "mandatory": "WARN",
+            "tableModel": "types/cnig_SNB_EQ_2019.json"
         }
     ],
     "codes": []

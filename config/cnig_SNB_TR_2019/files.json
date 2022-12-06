@@ -11,7 +11,8 @@
             "title": "cnig_SNB_ITDF_2019",
             "path": "cnig_SNB_[aA-zZ]{4}_[0-9]{8}",
             "type": "table",
-            "mandatory": "WARN"
+            "mandatory": "WARN",
+            "tableModel": "types/cnig_SNB_ITDF_2019.json"
         },
         {
             "id": "00438c830bee0b934a4b785daf7e1ed5",
@@ -19,7 +20,8 @@
             "title": "cnig_SNB_ITBR_2019",
             "path": "cnig_SNB_[aA-zZ]{4}_[0-9]{8}",
             "type": "table",
-            "mandatory": "WARN"
+            "mandatory": "WARN",
+            "tableModel": "types/cnig_SNB_ITBR_2019.json"
         },
         {
             "id": "9e842fa2b71015c28e737b10b60a8013",
@@ -27,7 +29,8 @@
             "title": "cnig_SNB_ITCO_2019",
             "path": "cnig_SNB_[aA-zZ]{4}_[0-9]{8}",
             "type": "table",
-            "mandatory": "WARN"
+            "mandatory": "WARN",
+            "tableModel": "types/cnig_SNB_ITCO_2019.json"
         }
     ],
     "codes": []
