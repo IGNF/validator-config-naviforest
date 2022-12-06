@@ -6,31 +6,44 @@
     "constraints": {},
     "files": [
         {
-            "id": "30d1100a50dd5cdd2e0a8206836b1513",
-            "name": "cnig_SNB_ITDF_2019",
-            "title": "cnig_SNB_ITDF_2019",
-            "path": "cnig_SNB_[aA-zZ]{4}_[0-9]{8}",
-            "type": "table",
-            "mandatory": "WARN",
-            "tableModel": "types/cnig_SNB_ITDF_2019.json"
+            "id": "4de3e95678ae7e4194845ffd719ca05f",
+            "name": "cnig_SNB_CC_2019",
+            "title": "cnig_SNB_CC_2019",
+            "path": "cnig_SNB_CC_2019",
+            "type": "directory",
+            "mandatory": "WARN"
+        },
+        {
+            "id": "7443e6adac6548ca826fbbad3eb80d79",
+            "name": "cnig_SNB_EQ_2019",
+            "title": "cnig_SNB_EQ_2019",
+            "path": "cnig_SNB_EQ_2019",
+            "type": "directory",
+            "mandatory": "WARN"
         },
         {
             "id": "00438c830bee0b934a4b785daf7e1ed5",
             "name": "cnig_SNB_ITBR_2019",
             "title": "cnig_SNB_ITBR_2019",
-            "path": "cnig_SNB_[aA-zZ]{4}_[0-9]{8}",
-            "type": "table",
-            "mandatory": "WARN",
-            "tableModel": "types/cnig_SNB_ITBR_2019.json"
+            "path": "cnig_SNB_ITBR_2019",
+            "type": "directory",
+            "mandatory": "WARN"
         },
         {
             "id": "9e842fa2b71015c28e737b10b60a8013",
             "name": "cnig_SNB_ITCO_2019",
             "title": "cnig_SNB_ITCO_2019",
-            "path": "cnig_SNB_[aA-zZ]{4}_[0-9]{8}",
-            "type": "table",
-            "mandatory": "WARN",
-            "tableModel": "types/cnig_SNB_ITCO_2019.json"
+            "path": "cnig_SNB_ITCO_2019",
+            "type": "directory",
+            "mandatory": "WARN"
+        },
+        {
+            "id": "30d1100a50dd5cdd2e0a8206836b1513",
+            "name": "cnig_SNB_ITDF_2019",
+            "title": "cnig_SNB_ITDF_2019",
+            "path": "cnig_SNB_ITDF_2019",
+            "type": "directory",
+            "mandatory": "WARN"
         }
     ],
     "codes": []

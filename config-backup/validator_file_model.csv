@@ -1,6 +1,6 @@
-id,document_model_id,type,path,mandatory,name,title,description
-30d1100a50dd5cdd2e0a8206836b1513,5bdd23b2fe5de31d6e54df6482425f9c,table,cnig_SNB_[aA-zZ]{4}_[0-9]{8},WARN,cnig_SNB_ITDF_2019,cnig_SNB_ITDF_2019,
-00438c830bee0b934a4b785daf7e1ed5,5bdd23b2fe5de31d6e54df6482425f9c,table,cnig_SNB_[aA-zZ]{4}_[0-9]{8},WARN,cnig_SNB_ITBR_2019,cnig_SNB_ITBR_2019,
-9e842fa2b71015c28e737b10b60a8013,5bdd23b2fe5de31d6e54df6482425f9c,table,cnig_SNB_[aA-zZ]{4}_[0-9]{8},WARN,cnig_SNB_ITCO_2019,cnig_SNB_ITCO_2019,
-7443e6adac6548ca826fbbad3eb80d79,a6ddeab1113438d36acaba7eea753a87,table,cnig_SNB_EQ_[aA-zZ]{4}_[0-9]{8},WARN,cnig_SNB_EQ_2019,cnig_SNB_EQ_2019,
-4de3e95678ae7e4194845ffd719ca05f,a74dc634ab68a80658124f62a62f17d4,table,cnig_SNB_CC_[aA-zZ]{4}_[0-9]{8},WARN,cnig_SNB_CC_2019,cnig_SNB_CC_2019,
+id,document_model_id,name,title,description,type,path,mandatory
+00438c830bee0b934a4b785daf7e1ed5,5bdd23b2fe5de31d6e54df6482425f9c,cnig_SNB_ITBR_2019,cnig_SNB_ITBR_2019,,directory,cnig_SNB_ITBR_2019,WARN
+30d1100a50dd5cdd2e0a8206836b1513,5bdd23b2fe5de31d6e54df6482425f9c,cnig_SNB_ITDF_2019,cnig_SNB_ITDF_2019,,directory,cnig_SNB_ITDF_2019,WARN
+4de3e95678ae7e4194845ffd719ca05f,5bdd23b2fe5de31d6e54df6482425f9c,cnig_SNB_CC_2019,cnig_SNB_CC_2019,,directory,cnig_SNB_CC_2019,WARN
+7443e6adac6548ca826fbbad3eb80d79,5bdd23b2fe5de31d6e54df6482425f9c,cnig_SNB_EQ_2019,cnig_SNB_EQ_2019,,directory,cnig_SNB_EQ_2019,WARN
+9e842fa2b71015c28e737b10b60a8013,5bdd23b2fe5de31d6e54df6482425f9c,cnig_SNB_ITCO_2019,cnig_SNB_ITCO_2019,,directory,cnig_SNB_ITCO_2019,WARN

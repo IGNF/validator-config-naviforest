@@ -1,7 +1,7 @@
-id,parent_id,document_model_id,abstract,primary_key,conditions,foreign_keys,name,title,description
-b4936f8571689c5fbb098888fb2663ca,08d850626b3508bf59caa120b9616252,5bdd23b2fe5de31d6e54df6482425f9c,f,,"[""ITBR LIKE 'Oui'""]",null,cnig_SNB_ITBR_2019,cnig_SNB_ITBR_2019,Table Itinéraires Bois ronds
-46d189cfe927aa0930cc0fa22f799d3c,,a6ddeab1113438d36acaba7eea753a87,f,,null,null,cnig_SNB_EQ_2019,cnig_SNB_EQ_2019,Table équipement cnig_SNB_EQ_2019
-08d850626b3508bf59caa120b9616252,,5bdd23b2fe5de31d6e54df6482425f9c,t,,null,null,cnig_SNB_XXXX_2019,cnig_SNB_XXXX_2019,Socle commun tronçon
-2d5374ce9c15e831eebef32dabe9262f,08d850626b3508bf59caa120b9616252,5bdd23b2fe5de31d6e54df6482425f9c,f,,"[""ITDF LIKE 'NON' AND ITBR LIKE 'NON'""]",null,cnig_SNB_ITCO_2019,cnig_SNB_ITCO_2019,Table sans ITBF et ITBR
-6678aa8c9f34276fbbc5c6e5836f6d80,08d850626b3508bf59caa120b9616252,5bdd23b2fe5de31d6e54df6482425f9c,f,,"[""ITDF LIKE 'Oui'""]",null,cnig_SNB_ITDF_2019,cnig_SNB_ITDF_2019,Dessertes forestières
-2a3579c83a5903fe3c85ecb6eb000dff,,a74dc634ab68a80658124f62a62f17d4,f,,null,null,cnig_SNB_CC_2019,cnig_SNB_CC_2019,Table contraintes de circulation
+id,document_model_id,parent_id,abstract,name,title,description,conditions,foreign_keys
+08d850626b3508bf59caa120b9616252,5bdd23b2fe5de31d6e54df6482425f9c,,t,cnig_SNB_XXXX_2019,cnig_SNB_XXXX_2019,"Socle commun tronçon",null,null
+2a3579c83a5903fe3c85ecb6eb000dff,5bdd23b2fe5de31d6e54df6482425f9c,,f,cnig_SNB_CC_2019,cnig_SNB_CC_2019,"Table contraintes de circulation",null,null
+2d5374ce9c15e831eebef32dabe9262f,5bdd23b2fe5de31d6e54df6482425f9c,08d850626b3508bf59caa120b9616252,f,cnig_SNB_ITCO_2019,cnig_SNB_ITCO_2019,"Table sans ITBF et ITBR","[""ITDF LIKE 'NON' AND ITBR LIKE 'NON'""]",null
+46d189cfe927aa0930cc0fa22f799d3c,5bdd23b2fe5de31d6e54df6482425f9c,,f,cnig_SNB_EQ_2019,cnig_SNB_EQ_2019,"Table équipement cnig_SNB_EQ_2019",null,null
+6678aa8c9f34276fbbc5c6e5836f6d80,5bdd23b2fe5de31d6e54df6482425f9c,08d850626b3508bf59caa120b9616252,f,cnig_SNB_ITDF_2019,cnig_SNB_ITDF_2019,"Dessertes forestières","[""ITDF LIKE 'Oui'""]",null
+b4936f8571689c5fbb098888fb2663ca,5bdd23b2fe5de31d6e54df6482425f9c,08d850626b3508bf59caa120b9616252,f,cnig_SNB_ITBR_2019,cnig_SNB_ITBR_2019,"Table Itinéraires Bois ronds","[""ITBR LIKE 'Oui'""]",null
