@@ -3,7 +3,7 @@
     "name": "cnig_SNB_CC_2019",
     "title": "cnig_SNB_CC_2019",
     "description": "Contraintes de circulation",
-    "constraints": [],
+    "constraints": {},
     "files": [
         {
             "id": "4de3e95678ae7e4194845ffd719ca05f",

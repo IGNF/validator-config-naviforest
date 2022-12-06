@@ -3,7 +3,7 @@
     "name": "cnig_SNB_EQ_2019",
     "title": "cnig_SNB_EQ_2019",
     "description": "Classe des équipements liés au stockage et au transport de bois en forêt",
-    "constraints": [],
+    "constraints": {},
     "files": [
         {
             "id": "7443e6adac6548ca826fbbad3eb80d79",

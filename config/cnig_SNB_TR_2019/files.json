@@ -3,7 +3,7 @@
     "name": "cnig_SNB_TR_2019",
     "title": "cnig_SNB_TR_2019",
     "description": "Standard National de données dessertes pour le transport de bois",
-    "constraints": [],
+    "constraints": {},
     "files": [
         {
             "id": "30d1100a50dd5cdd2e0a8206836b1513",
