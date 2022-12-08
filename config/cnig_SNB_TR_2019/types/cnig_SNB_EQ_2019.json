@@ -3,6 +3,12 @@
     "name": "cnig_SNB_EQ_2019",
     "title": "cnig_SNB_EQ_2019",
     "description": "Table équipement cnig_SNB_EQ_2019",
+    "constraints": {
+        "conditions": [
+            "constraint REVETEMENT check ( NATURE like 'Place de dépôt' OR NATURE like 'Aire de retournement' OR NATURE like 'Aire de dépôt - retournement')"
+        ],
+        "foreignKeys": []
+    },
     "columns": [
         {
             "id": "08c64b04b79dd5802d053857f24113c9",
