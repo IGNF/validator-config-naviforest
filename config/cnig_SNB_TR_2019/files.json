@@ -11,7 +11,8 @@
             "title": "cnig_SNB_CC_2019",
             "path": "cnig_SNB_CC_2019",
             "type": "table",
-            "mandatory": "WARN"
+            "mandatory": "WARN",
+            "tableModel": "types/cnig_SNB_CC_2019.json"
         },
         {
             "id": "7443e6adac6548ca826fbbad3eb80d79",
@@ -20,7 +21,8 @@
             "description": "Classe des équipements liés au stockage et au transport de bois en forêt.",
             "path": "cnig_SNB_EQ_2019",
             "type": "table",
-            "mandatory": "WARN"
+            "mandatory": "WARN",
+            "tableModel": "types/cnig_SNB_EQ_2019.json"
         },
         {
             "id": "00438c830bee0b934a4b785daf7e1ed5",
@@ -28,7 +30,8 @@
             "title": "cnig_SNB_ITBR_2019",
             "path": "cnig_SNB_ITBR_2019",
             "type": "table",
-            "mandatory": "WARN"
+            "mandatory": "WARN",
+            "tableModel": "types/cnig_SNB_ITBR_2019.json"
         },
         {
             "id": "9e842fa2b71015c28e737b10b60a8013",
@@ -36,7 +39,8 @@
             "title": "cnig_SNB_ITCO_2019",
             "path": "cnig_SNB_ITCO_2019",
             "type": "table",
-            "mandatory": "WARN"
+            "mandatory": "WARN",
+            "tableModel": "types/cnig_SNB_ITCO_2019.json"
         },
         {
             "id": "30d1100a50dd5cdd2e0a8206836b1513",
@@ -44,7 +48,8 @@
             "title": "cnig_SNB_ITDF_2019",
             "path": "cnig_SNB_ITDF_2019",
             "type": "table",
-            "mandatory": "WARN"
+            "mandatory": "WARN",
+            "tableModel": "types/cnig_SNB_ITDF_2019.json"
         }
     ],
     "codes": []
