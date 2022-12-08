@@ -5,7 +5,9 @@
     "description": "Table équipement cnig_SNB_EQ_2019",
     "constraints": {
         "conditions": [
-            "constraint REVETEMENT check ( NATURE like 'Place de dépôt' OR NATURE like 'Aire de retournement' OR NATURE like 'Aire de dépôt - retournement')"
+            "NATURE LIKE 'Place de dépôt' AND REVETEMENT NOT NULL",
+            "NATURE LIKE 'Aire de retournement' AND REVETEMENT NOT NULL",
+            "NATURE LIKE 'Aire de dépôt - retournement' AND REVETEMENT NOT NULL"
         ],
         "foreignKeys": []
     },
