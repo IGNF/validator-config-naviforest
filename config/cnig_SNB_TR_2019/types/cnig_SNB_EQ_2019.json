@@ -5,9 +5,9 @@
     "description": "Table équipement cnig_SNB_EQ_2019",
     "constraints": {
         "conditions": [
-            "NATURE LIKE 'Place de dépôt' AND REVETEMENT NOT NULL",
-            "NATURE LIKE 'Aire de retournement' AND REVETEMENT NOT NULL",
-            "NATURE LIKE 'Aire de dépôt - retournement' AND REVETEMENT NOT NULL"
+            "NOT(NATURE LIKE 'Place de dépôt' AND REVETEMENT IS NULL)",
+            "NOT(NATURE LIKE 'Aire de retournement' AND REVETEMENT IS NULL)",
+            "NOT(NATURE LIKE 'Aire de dépôt - retournement' AND REVETEMENT IS NULL)"
         ],
         "foreignKeys": []
     },
@@ -95,7 +95,7 @@
                     "Commune",
                     "Intercommunalité",
                     "Autre",
-                    "Autre"
+                    "Inconnu"
                 ]
             }
         },
