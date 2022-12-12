@@ -5,7 +5,7 @@
     "description": "Table sans ITBF et ITBR",
     "constraints": {
         "conditions": [
-            "ITDF LIKE 'NON' AND ITBR LIKE 'NON'"
+            "ITDF NOT LIKE 'Oui' AND ITBR NOT LIKE 'Oui'"
         ],
         "foreignKeys": []
     },

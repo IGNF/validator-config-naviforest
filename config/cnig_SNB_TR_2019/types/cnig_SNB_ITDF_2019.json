@@ -5,7 +5,7 @@
     "description": "Dessertes forestières",
     "constraints": {
         "conditions": [
-            "ITDF LIKE 'Oui'"
+            "ITDF NOT LIKE 'Non'"
         ],
         "foreignKeys": []
     },
