@@ -14,7 +14,7 @@
     "columns": [
         {
             "id": "08c64b04b79dd5802d053857f24113c9",
-            "name": "COMMENTAIRE",
+            "name": "COMMENT",
             "title": "COMMENTAIRE",
             "description": "Commentaire précisant des informations sur l’équipement",
             "type": "String",
@@ -52,7 +52,7 @@
         },
         {
             "id": "66af76e7c3463c313d14631f5e4ca3bc",
-            "name": "LOCALISATION",
+            "name": "LOCALISANT",
             "title": "LOCALISATION",
             "description": "Localisation GPS de l'équipement en WGS84",
             "type": "Point",
@@ -131,7 +131,7 @@
         },
         {
             "id": "ad9b65c27b6f4c8eca66075b8f983c8e",
-            "name": "CONTRIBUTEUR",
+            "name": "CONTRIB",
             "title": "CONTRIBUTEUR",
             "description": "Nom du producteur/contributeur de la donnée sur l'équipement",
             "type": "String",
