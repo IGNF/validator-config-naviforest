@@ -18,7 +18,7 @@
         },
         {
             "id": "07787d02bf54f98bd6cbdf339c48aa06",
-            "name": "LOCALISATION",
+            "name": "LOCALISANT",
             "title": "LOCALISATION",
             "description": "Localisation GPS du point contrainte en WGS84",
             "type": "Point",
@@ -29,7 +29,7 @@
         },
         {
             "id": "0a0c84886819ada8d713611b36a3c13f",
-            "name": "CONTRIBUTEUR",
+            "name": "CONTRIB",
             "title": "CONTRIBUTEUR",
             "description": "Nom du dernier producteur/contributeur de la donnée sur le point contrainte",
             "type": "String",
@@ -63,7 +63,7 @@
         },
         {
             "id": "29cb84f6c33e926fbe48957d90c01b66",
-            "name": "LONG_MAX_ER",
+            "name": "LONG_M_ER",
             "title": "LONG_MAX_ER",
             "description": "Longueur maximale possible en mètre de l'ensemble routier pour franchir la contrainte",
             "type": "String",
@@ -75,7 +75,7 @@
         },
         {
             "id": "3084b344117fb42b017df4638342fea4",
-            "name": "HAUT_MAX_ER",
+            "name": "HAUT_M_ER",
             "title": "HAUT_MAX_ER",
             "description": "Hauteur maximale possible en mètre de l'ensemble routier pour franchir la contrainte",
             "type": "String",
@@ -87,7 +87,7 @@
         },
         {
             "id": "3243da6657d287b43f00aaa2bbedb4fc",
-            "name": "FRANCHISSEMENT",
+            "name": "FRANCHI",
             "title": "FRANCHISSEMENT",
             "description": "Voie franchie ou voie portée (passage supérieur) au niveau du point contrainte",
             "type": "String",
@@ -114,7 +114,7 @@
         },
         {
             "id": "633ae03291f3403aaba41b0ecb650de8",
-            "name": "COMMENTAIRE",
+            "name": "COMMENT",
             "title": "COMMENTAIRE",
             "description": "Commentaire permettant d’apporter des précisions supplémentaires aux attributs du standard",
             "type": "String",
@@ -181,7 +181,7 @@
         },
         {
             "id": "b0d35f3d6b1474113ba71a7378d7ef00",
-            "name": "LARG_MAX_ER",
+            "name": "LARG_M_ER",
             "title": "LARG_MAX_ER",
             "description": "Largeur maximale possible en mètre de l'ensemble routier pour franchir la contrainte",
             "type": "String",
@@ -193,7 +193,7 @@
         },
         {
             "id": "c527775e8c03bae5dc01721b40cad4f2",
-            "name": "RESTRICTION_ITBR",
+            "name": "RESTR_ITBR",
             "title": "RESTRICTION_ITBR",
             "description": "Restriction de circulation liée au tonnage sur le point contrainte défini par l'arrêté préfectoral pour la circulation du transport de bois ronds",
             "type": "String",
@@ -239,8 +239,8 @@
         },
         {
             "id": "eb88f47eb3c9d2586d8e9d293e496bc6",
-            "name": "CHARGE_ESSIEU_ MAX",
-            "title": "CHARGE_ESSIEU_ MAX",
+            "name": "T_ESSIEU_ M",
+            "title": "CHARGE_ESSIEU_MAX",
             "description": "Charge à l’essieu autorisée maximale en tonne",
             "type": "String",
             "constraints": {

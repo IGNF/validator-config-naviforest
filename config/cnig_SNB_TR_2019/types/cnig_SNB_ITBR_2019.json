@@ -113,7 +113,7 @@
         },
         {
             "id": "27132b6e76e80978a25e6d3362ce0fa0",
-            "name": "LARG_MAX_ER",
+            "name": "LARG_M_ER",
             "title": "LARG_MAX_ER",
             "description": "Largeur maximale autorisée en mètre de l'ensemble routier pour la circulation sur le tronçon",
             "type": "String",
@@ -156,8 +156,8 @@
         },
         {
             "id": "4f0c79f68b0766ebde95511fcd4c17ff",
-            "name": "POS_POL",
-            "title": "POS_POL",
+            "name": "POS_SOL",
+            "title": "POS_SOL",
             "description": "Position au sol du tronçon",
             "type": "Integer",
             "constraints": {
@@ -195,7 +195,7 @@
         },
         {
             "id": "820ef2b7fe9d20c126c39c671cf4cf2a",
-            "name": "RESTRICTION_SAISON",
+            "name": "RESTR_SAIS",
             "title": "RESTRICTION_SAISON",
             "description": "Tronçon pouvant être soumis à une restriction saisonnière (ex : col, dégel)",
             "type": "String",
@@ -247,7 +247,7 @@
         },
         {
             "id": "8f97be54612aa9b1e83c9e15666e3ac2",
-            "name": "HAUT_MAX_ER",
+            "name": "HAUT_M_ER",
             "title": "HAUT_MAX_ER",
             "description": "Hauteur maximale autorisée en mètre de l'ensemble routier pour la circulation sur le tronçon",
             "type": "String",
@@ -286,7 +286,7 @@
         },
         {
             "id": "c654dead1f2baa6dfabe892eb1a7e5d2",
-            "name": "T_ESSIEUX_MAX",
+            "name": "T_ESSIEUX_M",
             "title": "T_ESSIEUX_MAX",
             "description": "Charge maximale à l’essieu autorisée en tonnes",
             "type": "String",
@@ -343,7 +343,7 @@
         },
         {
             "id": "fd5ecd19f03e114979ae26572c5ddf04",
-            "name": "LONG_MAX_ER",
+            "name": "LONG_M_ER",
             "title": "LONG_MAX_ER",
             "description": "Longueur maximale autorisée en mètre de l'ensemble routier pour la circulation sur le tronçon",
             "type": "String",
@@ -355,7 +355,7 @@
         },
         {
             "id": "0f3842c6bb79c19a4a89dce5e3bde455",
-            "name": "TEMPORAIRE_FIN",
+            "name": "TEMPO_FIN",
             "title": "TEMPORAIRE_FIN",
             "description": "Date de fin du caractère temporaire du tronçon itinéraire bois ronds défini par l'arrêté préfectoral",
             "type": "Date",
@@ -366,7 +366,7 @@
         },
         {
             "id": "2bd237ba7c911368d5620bc1263b9955",
-            "name": "RACCORDEMENT_AUTORISATION",
+            "name": "RAC_AUTO",
             "title": "RACCORDEMENT_AUTORISATION",
             "description": "Autorisation nécessaire pour le raccordement depuis le tronçon ITBR appartenant à la route définie par l'arrêté préfectoral pour la circulation du transport de bois ronds",
             "type": "String",
@@ -384,7 +384,7 @@
         },
         {
             "id": "2d21d51e71651ca118ae98afb2515eb4",
-            "name": "ITBR_INTERDICTION_HORAIRE",
+            "name": "ITBR_HEURE",
             "title": "ITBR_INTERDICTION_HORAIRE",
             "description": "Interdiction de circulation lors de plages horaires sur le tronçon ITBR appartenant à la route définie par l'arrêté préfectoral sur les itinéraires bois ronds",
             "type": "String",
@@ -392,15 +392,14 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "Plage horaire",
-                    "Non concerné"
+                    "null"
                 ]
             }
         },
         {
             "id": "7d8748629559939bae49edfd9aae1581",
-            "name": "ITBR_PTRA_MAX_6ESS",
-            "title": "ITBR_PTRA_MAX_6ESS",
+            "name": "ITBR_PTRA6",
+            "title": "ITBR_PTRA_MAX_6_ESSIEUX",
             "description": "Poids total roulant autorisé maximal sur le tronçon ITBR appartenant à la route définie par l'arrêté préfectoral sur les itinéraires bois ronds pour un ensemble routier de 6 essieux",
             "type": "String",
             "constraints": {
@@ -417,7 +416,7 @@
         {
             "id": "8081cd7bd129a9da1bfe36d92af6ed20",
             "name": "ARRET_BORD",
-            "title": "ARRET_BORD",
+            "title": "ARRETE_A_BORD",
             "description": "Obligation d’avoir un exemplaire de l’arrêté préfectoral à bord du véhicule",
             "type": "String",
             "constraints": {
@@ -446,7 +445,7 @@
         },
         {
             "id": "9c5794c3e017b8ea42a9ceaf85b8a66f",
-            "name": "ITBR_RACCORDEMENT",
+            "name": "ITBR_RAC",
             "title": "ITBR_RACCORDEMENT",
             "description": "Modalité de raccordement qui est possible à partir du tronçon ITBR appartenant à la route définie par l'arrêté préfectoral pour la circulation du transport de bois ronds",
             "type": "String",
@@ -466,7 +465,7 @@
         },
         {
             "id": "9d0e3ca55a823ecf755d45fd8d54be8a",
-            "name": "TEMPORAIRE_DEBUT",
+            "name": "TEMPO_DEB",
             "title": "TEMPORAIRE_DEBUT",
             "description": "Date de début du caractère temporaire du tronçon itinéraire bois ronds défini par l'arrêté préfectoral",
             "type": "Date",
@@ -477,8 +476,8 @@
         },
         {
             "id": "a03aae626ca67dcb7ce33a290796f783",
-            "name": "ARRETE_DATE",
-            "title": "ARRETE_DATE",
+            "name": "ARRET_DATE",
+            "title": "DATE_SIGNATURE_ARRETE",
             "description": "Date de signature de l’arrêté préfectoral",
             "type": "Date",
             "constraints": {
@@ -488,7 +487,7 @@
         },
         {
             "id": "a66e23b75ac9d49737e5320c9483a0b8",
-            "name": "RACCORDEMENT_AU_PLUS_COURT",
+            "name": "RAC_COURT",
             "title": "RACCORDEMENT_AU_PLUS_COURT",
             "description": "Mention « au plus court » précisée dans la modalité de raccordement autorisée par l’arrêté préfectoral",
             "type": "String",
@@ -503,7 +502,7 @@
         },
         {
             "id": "b81014ca07bb0bb13bfefadf9c9305ad",
-            "name": "ITBR_AUTORISATION",
+            "name": "ITBR_AUTO",
             "title": "ITBR_AUTORISATION",
             "description": "Type d’autorisation de circulation sur le tronçon appartenant à la route définie par l'arrêté préfectoral pour la circulation du transport de bois ronds",
             "type": "String",
@@ -522,7 +521,7 @@
         },
         {
             "id": "c2d44b7c658f459fd1e33548d8d2632a",
-            "name": "RACCORDEMENT_CONFIGURATION",
+            "name": "RAC_CONFIG",
             "title": "RACCORDEMENT_CONFIGURATION",
             "description": "Configuration nécessitant une autorisation pour emprunter les voies de raccordement",
             "type": "String",
@@ -539,8 +538,8 @@
         },
         {
             "id": "d31ce943aea6e52b323f40f9bdb4b059",
-            "name": "TBR_PTRA_MAX_5ESS",
-            "title": "TBR_PTRA_MAX_5ESS",
+            "name": "ITBR_PTRA5",
+            "title": "ITBR_PTRA_MAX_5_ESSIEUX",
             "description": "Poids total roulant autorisé maximal sur le tronçon ITBR appartenant à la route définie par l'arrêté préfectoral sur les itinéraires bois ronds pour un ensemble routier de 5 essieux",
             "type": "String",
             "constraints": {
@@ -555,7 +554,7 @@
         },
         {
             "id": "e2a5be76f501a6bcce8552f1cafa0012",
-            "name": "ITBR_TEMPORAIRE",
+            "name": "ITBR_TEMPO",
             "title": "ITBR_TEMPORAIRE",
             "description": "Caractère temporaire de l’autorisation d’itinéraire bois ronds défini par l'arrêté préfectoral",
             "type": "String",

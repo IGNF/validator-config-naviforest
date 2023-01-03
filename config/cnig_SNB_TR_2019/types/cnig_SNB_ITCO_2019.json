@@ -113,7 +113,7 @@
         },
         {
             "id": "27132b6e76e80978a25e6d3362ce0fa0",
-            "name": "LARG_MAX_ER",
+            "name": "LARG_M_ER",
             "title": "LARG_MAX_ER",
             "description": "Largeur maximale autorisée en mètre de l'ensemble routier pour la circulation sur le tronçon",
             "type": "String",
@@ -156,8 +156,8 @@
         },
         {
             "id": "4f0c79f68b0766ebde95511fcd4c17ff",
-            "name": "POS_POL",
-            "title": "POS_POL",
+            "name": "POS_SOL",
+            "title": "POS_SOL",
             "description": "Position au sol du tronçon",
             "type": "Integer",
             "constraints": {
@@ -195,7 +195,7 @@
         },
         {
             "id": "820ef2b7fe9d20c126c39c671cf4cf2a",
-            "name": "RESTRICTION_SAISON",
+            "name": "RESTR_SAIS",
             "title": "RESTRICTION_SAISON",
             "description": "Tronçon pouvant être soumis à une restriction saisonnière (ex : col, dégel)",
             "type": "String",
@@ -247,7 +247,7 @@
         },
         {
             "id": "8f97be54612aa9b1e83c9e15666e3ac2",
-            "name": "HAUT_MAX_ER",
+            "name": "HAUT_M_ER",
             "title": "HAUT_MAX_ER",
             "description": "Hauteur maximale autorisée en mètre de l'ensemble routier pour la circulation sur le tronçon",
             "type": "String",
@@ -286,7 +286,7 @@
         },
         {
             "id": "c654dead1f2baa6dfabe892eb1a7e5d2",
-            "name": "T_ESSIEUX_MAX",
+            "name": "T_ESSIEUX_M",
             "title": "T_ESSIEUX_MAX",
             "description": "Charge maximale à l’essieu autorisée en tonnes",
             "type": "String",
@@ -343,7 +343,7 @@
         },
         {
             "id": "fd5ecd19f03e114979ae26572c5ddf04",
-            "name": "LONG_MAX_ER",
+            "name": "LONG_M_ER",
             "title": "LONG_MAX_ER",
             "description": "Longueur maximale autorisée en mètre de l'ensemble routier pour la circulation sur le tronçon",
             "type": "String",
