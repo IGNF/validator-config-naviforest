@@ -228,12 +228,17 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "Place de dépôt",
-                    "Aire de retournement",
-                    "Aire de croisement",
-                    "Aire de dépôt - retournement",
-                    "Barrière",
-                    "Point de rencontre des secours en forêt"
+                    "Pente forte (>10%)",
+                    "Lacet",
+                    "Tunnel",
+                    "Pont",
+                    "Dégradation (chaussée, accotement)",
+                    "Gué ou radier",
+                    "Passage à niveau",
+                    "Barrière de dégel",
+                    "Obstacle",
+                    "Fermeture temporaire",
+                    "Autre"
                 ]
             }
         },
