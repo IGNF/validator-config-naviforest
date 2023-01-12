@@ -1,11 +1,11 @@
 {
-    "id": "b4936f8571689c5fbb098888fb2663ca",
-    "name": "cnig_SNB_ITBR_2019",
-    "title": "cnig_SNB_ITBR_2019",
-    "description": "Table Itinéraires Bois ronds",
+    "id": "6678aa8c9f34276fbbc5c6e5836f6d80",
+    "name": "TRONCON_ITDF",
+    "title": "TRONCON_ITDF",
+    "description": "Dessertes forestières",
     "constraints": {
         "conditions": [
-            "ITBR NOT LIKE 'Non'"
+            "ITDF NOT LIKE 'Non'"
         ],
         "foreignKeys": []
     },
@@ -100,15 +100,31 @@
             }
         },
         {
-            "id": "20605c7655a100c182039e54c23bf91c",
+            "id": "46c416c42a70a9151c144bad60f92929",
             "name": "LARGEUR",
             "title": "LARGEUR",
             "description": "Largeur moyenne de la bande roulante du tronçon en mètres",
-            "type": "String",
+            "type": "Integer",
             "constraints": {
                 "required": true,
                 "unique": false,
-                "pattern": "^[0-1]{1}[0-9]{1}(?:\\,(\\d{1,1}))?$|[0-9]{1}(?:\\,(\\d{1,1}))?$"
+                "enum": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ]
             }
         },
         {
@@ -136,7 +152,7 @@
             }
         },
         {
-            "id": "4cfb2229e8bcdb8b685eec4e7b056174",
+            "id": "2354c17451be33ed5fb890295345f4e8",
             "name": "RESEAU_TE",
             "title": "RESEAU_TE",
             "description": "Réseau permanent de transport exceptionnel auquel appartient le tronçon",
@@ -145,7 +161,7 @@
                 "required": true,
                 "unique": false,
                 "enum": [
-                    "48",
+                    "42",
                     "72",
                     "94",
                     "120",
@@ -330,15 +346,14 @@
             }
         },
         {
-            "id": "f22de6610b4b6db976323784cb5b9e15",
+            "id": "4e4e6999955733905912c5c8fd1e92a2",
             "name": "LONGUEUR",
             "title": "LONGUEUR",
             "description": "Longueur du tronçon en mètres",
-            "type": "String",
+            "type": "Double",
             "constraints": {
                 "required": true,
-                "unique": false,
-                "pattern": "^[0-9]+$"
+                "unique": false
             }
         },
         {
@@ -354,142 +369,59 @@
             }
         },
         {
-            "id": "0f3842c6bb79c19a4a89dce5e3bde455",
-            "name": "TEMPO_FIN",
-            "title": "TEMPORAIRE_FIN",
-            "description": "Date de fin du caractère temporaire du tronçon itinéraire bois ronds défini par l'arrêté préfectoral",
-            "type": "Date",
-            "constraints": {
-                "required": false,
-                "unique": false
-            }
-        },
-        {
-            "id": "2bd237ba7c911368d5620bc1263b9955",
-            "name": "RAC_AUTO",
-            "title": "RACCORDEMENT_AUTORISATION",
-            "description": "Autorisation nécessaire pour le raccordement depuis le tronçon ITBR appartenant à la route définie par l'arrêté préfectoral pour la circulation du transport de bois ronds",
-            "type": "String",
-            "constraints": {
-                "required": true,
-                "unique": false,
-                "enum": [
-                    "Oui",
-                    "Selon configuration",
-                    "Non",
-                    "Déclaration",
-                    "Non concerné"
-                ]
-            }
-        },
-        {
-            "id": "2d21d51e71651ca118ae98afb2515eb4",
-            "name": "ITBR_HEURE",
-            "title": "ITBR_INTERDICTION_HORAIRE",
-            "description": "Interdiction de circulation lors de plages horaires sur le tronçon ITBR appartenant à la route définie par l'arrêté préfectoral sur les itinéraires bois ronds",
-            "type": "String",
-            "constraints": {
-                "required": true,
-                "unique": false,
-                "enum": [
-                    "null"
-                ]
-            }
-        },
-        {
-            "id": "7d8748629559939bae49edfd9aae1581",
-            "name": "ITBR_PTRA6",
-            "title": "ITBR_PTRA_MAX_6_ESSIEUX",
-            "description": "Poids total roulant autorisé maximal sur le tronçon ITBR appartenant à la route définie par l'arrêté préfectoral sur les itinéraires bois ronds pour un ensemble routier de 6 essieux",
-            "type": "String",
-            "constraints": {
-                "required": true,
-                "unique": false,
-                "enum": [
-                    "44",
-                    "45",
-                    "48",
-                    "57"
-                ]
-            }
-        },
-        {
-            "id": "8081cd7bd129a9da1bfe36d92af6ed20",
-            "name": "ARRET_BORD",
-            "title": "ARRETE_A_BORD",
-            "description": "Obligation d’avoir un exemplaire de l’arrêté préfectoral à bord du véhicule",
-            "type": "String",
-            "constraints": {
-                "required": true,
-                "unique": false,
-                "enum": [
-                    "Oui",
-                    "Non"
-                ]
-            }
-        },
-        {
-            "id": "963e6caedf2d7b4f27c3cf2be5ca1a15",
-            "name": "RACCORDEMENT_EQUIPEMENT",
-            "title": "RACCORDEMENT_EQUIPEMENT",
-            "description": "Equipement particulier nécessaire pour le raccordement depuis le tronçon ITBR appartenant à la route définie par l'arrêté préfectoral pour la circulation du transport de bois ronds",
-            "type": "String",
-            "constraints": {
-                "required": true,
-                "unique": false,
-                "enum": [
-                    "5 essieux max",
-                    "6 essieux max"
-                ]
-            }
-        },
-        {
-            "id": "9c5794c3e017b8ea42a9ceaf85b8a66f",
-            "name": "ITBR_RAC",
-            "title": "ITBR_RACCORDEMENT",
-            "description": "Modalité de raccordement qui est possible à partir du tronçon ITBR appartenant à la route définie par l'arrêté préfectoral pour la circulation du transport de bois ronds",
+            "id": "0358239d4a19ba00f17d036d06d73c42",
+            "name": "ITDF_PRAT",
+            "title": "ITDF_PRATICABILITE",
+            "description": "Praticabilité du tronçon dépendant ou non (tout temps) des conditions météorologiques",
             "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
                 "enum": [
-                    "Sans restriction",
-                    "Au plus court",
-                    "4 km max",
-                    "10 km max",
-                    "15 km max",
-                    "20 km max",
-                    "Interdiction"
+                    "Tout temps",
+                    "Temps sec"
                 ]
             }
         },
         {
-            "id": "9d0e3ca55a823ecf755d45fd8d54be8a",
-            "name": "TEMPO_DEB",
-            "title": "TEMPORAIRE_DEBUT",
-            "description": "Date de début du caractère temporaire du tronçon itinéraire bois ronds défini par l'arrêté préfectoral",
-            "type": "Date",
-            "constraints": {
-                "required": false,
-                "unique": false
-            }
-        },
-        {
-            "id": "a03aae626ca67dcb7ce33a290796f783",
-            "name": "ARRET_DATE",
-            "title": "DATE_SIGNATURE_ARRETE",
-            "description": "Date de signature de l’arrêté préfectoral",
-            "type": "Date",
+            "id": "1c19c67be4fc53cb1b397ef73165d00a",
+            "name": "ITDF_REVET",
+            "title": "ITDF_REVETEMENT",
+            "description": "Type de revêtement du tronçon",
+            "type": "String",
             "constraints": {
                 "required": true,
-                "unique": false
+                "unique": false,
+                "enum": [
+                    "Revêtu",
+                    "Empierré",
+                    "Terrain naturel"
+                ]
             }
         },
         {
-            "id": "a66e23b75ac9d49737e5320c9483a0b8",
-            "name": "RAC_COURT",
-            "title": "RACCORDEMENT_AU_PLUS_COURT",
-            "description": "Mention « au plus court » précisée dans la modalité de raccordement autorisée par l’arrêté préfectoral",
+            "id": "81d12f17fc985fff31e3f45fc367029d",
+            "name": "CA_TE",
+            "title": "CA_TE",
+            "description": "Catégorie maximale de transport exceptionnel à laquelle appartient le tronçon",
+            "type": "String",
+            "constraints": {
+                "required": true,
+                "unique": false,
+                "enum": [
+                    "CAT1",
+                    "CAT2",
+                    "CAT3",
+                    "Non concerné",
+                    "Inconnu"
+                ]
+            }
+        },
+        {
+            "id": "9ee7421913ecfbd7b427c30d565a941b",
+            "name": "ACCES_FMA",
+            "title": "ITDF_ACCES_FMA",
+            "description": "Tronçon accessible aux fonds mouvants",
             "type": "String",
             "constraints": {
                 "required": false,
@@ -501,62 +433,56 @@
             }
         },
         {
-            "id": "b81014ca07bb0bb13bfefadf9c9305ad",
-            "name": "ITBR_AUTO",
-            "title": "ITBR_AUTORISATION",
-            "description": "Type d’autorisation de circulation sur le tronçon appartenant à la route définie par l'arrêté préfectoral pour la circulation du transport de bois ronds",
-            "type": "String",
-            "constraints": {
-                "required": true,
-                "unique": false,
-                "enum": [
-                    "Sans restriction",
-                    "Transit",
-                    "Desserte locale",
-                    "Avec autorisation",
-                    "Avec information",
-                    "Interdiction"
-                ]
-            }
-        },
-        {
-            "id": "c2d44b7c658f459fd1e33548d8d2632a",
-            "name": "RAC_CONFIG",
-            "title": "RACCORDEMENT_CONFIGURATION",
-            "description": "Configuration nécessitant une autorisation pour emprunter les voies de raccordement",
+            "id": "ab0a53ef53f1cd725d2b4b7e4f219b5d",
+            "name": "ITDF_DFCI",
+            "title": "ITDF_DFCI",
+            "description": "Tronçon réservé ou non à l’usage pour la DFCI (Défense Forestière Contre les Incendies)",
             "type": "String",
             "constraints": {
                 "required": false,
                 "unique": false,
                 "enum": [
-                    "Tonnage > 44T à 5 essieux et > 48T à 6 essieux",
-                    "onnage > 48 T a 6 essieux minimum",
-                    "Tonnage > 52 T a 6 essieux minimum",
-                    "Non concerné"
+                    "Usage exclusif DFCI",
+                    "Mixte",
+                    "Inconnu"
                 ]
             }
         },
         {
-            "id": "d31ce943aea6e52b323f40f9bdb4b059",
-            "name": "ITBR_PTRA5",
-            "title": "ITBR_PTRA_MAX_5_ESSIEUX",
-            "description": "Poids total roulant autorisé maximal sur le tronçon ITBR appartenant à la route définie par l'arrêté préfectoral sur les itinéraires bois ronds pour un ensemble routier de 5 essieux",
+            "id": "c67878617d2b2fa03ac0db51ac542a1d",
+            "name": "ITDF_ETAT",
+            "title": "ITDF_ETAT",
+            "description": "Etat général du tronçon (dégradation de la voirie),indépendamment du type de véhicule pouvant y circuler",
             "type": "String",
             "constraints": {
-                "required": true,
+                "required": false,
                 "unique": false,
                 "enum": [
-                    "44",
-                    "45",
-                    "48"
+                    "Bon",
+                    "Mauvais"
                 ]
             }
         },
         {
-            "id": "e2a5be76f501a6bcce8552f1cafa0012",
-            "name": "ITBR_TEMPO",
-            "title": "ITBR_TEMPORAIRE",
-            "description": "Caractère temporaire de l’autorisation d’itinéraire bois ronds défini par l'arrêté préfectoral",
+            "id": "d75bd46e41d2efe187119560718525ed",
+            "name": "ITDF_SURB",
+            "title": "ITDF_ACCES_SURBAISSE",
+            "description": "Tronçon accessible aux ensembles routiers surbaissés (ex : porte-char)",
+            "type": "String",
+            "constraints": {
+                "required": false,
+                "unique": false,
+                "enum": [
+                    "Oui",
+                    "Non"
+                ]
+            }
+        },
+        {
+            "id": "ecd94b733151847fbf92bd4fe7bf1612",
+            "name": "ACCES_GR",
+            "title": "ITDF_ACCES_GRUMIER_SR",
+            "description": "Tronçon accessible aux grumiers et semi-remorques",
             "type": "String",
             "constraints": {
                 "required": true,

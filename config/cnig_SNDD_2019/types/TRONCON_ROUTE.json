@@ -1,7 +1,7 @@
 {
     "id": "2d5374ce9c15e831eebef32dabe9262f",
-    "name": "cnig_SNB_ITCO_2019",
-    "title": "cnig_SNB_ITCO_2019",
+    "name": "TRONCON_ROUTE",
+    "title": "TRONCON_ROUT",
     "description": "Table sans ITBF et ITBR",
     "constraints": {
         "conditions": [

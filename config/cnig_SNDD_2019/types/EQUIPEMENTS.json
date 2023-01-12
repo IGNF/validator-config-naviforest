@@ -1,8 +1,8 @@
 {
     "id": "46d189cfe927aa0930cc0fa22f799d3c",
-    "name": "cnig_SNB_EQ_2019",
-    "title": "cnig_SNB_EQ_2019",
-    "description": "Table équipement cnig_SNB_EQ_2019",
+    "name": "EQUIPEMENTS",
+    "title": "EQUIPEMENTS",
+    "description": "Table équipement",
     "constraints": {
         "conditions": [
             "NOT(NATURE LIKE 'Place de dépôt' AND REVETEMENT IS NULL)",
