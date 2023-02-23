@@ -171,7 +171,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "pattern": "[AB0-9]{5}"
+                "pattern": "^[AB0-9]{5}$"
             }
         },
         {
