@@ -38,8 +38,9 @@
             "name": "TRONCON_ITDF",
             "title": "TRONCON_ITDF",
             "path": "TRONCON_ITDF",
-            "type": "directory",
-            "mandatory": "WARN"
+            "type": "table",
+            "mandatory": "WARN",
+            "tableModel": "./types/TRONCON_ITDF.json"
         },
         {
             "id": "9e842fa2b71015c28e737b10b60a8013",
