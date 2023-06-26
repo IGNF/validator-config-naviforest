@@ -152,6 +152,17 @@
             }
         },
         {
+            "id": "c11d9ae93f613b14721b0c2c92421a86",
+            "name": "WKT",
+            "title": "Geometrie",
+            "description": "Géométrie de équipement (POINT)",
+            "type": "Point",
+            "constraints": {
+                "required": true,
+                "unique": false
+            }
+        },
+        {
             "id": "c635349e54ac2ca394a1b85d387fcf5f",
             "name": "NOM",
             "title": "NOM",

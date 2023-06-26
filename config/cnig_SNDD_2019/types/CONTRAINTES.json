@@ -192,6 +192,17 @@
             }
         },
         {
+            "id": "b3dd0d916984f6ee54217ab0ab27afaf",
+            "name": "WKT",
+            "title": "Geometrie",
+            "description": "Géométrie de la contrainte (POINT)",
+            "type": "Point",
+            "constraints": {
+                "required": true,
+                "unique": false
+            }
+        },
+        {
             "id": "c527775e8c03bae5dc01721b40cad4f2",
             "name": "RESTR_ITBR",
             "title": "RESTRICTION_ITBR",

@@ -128,6 +128,17 @@
             }
         },
         {
+            "id": "23d885582c05b735654206bf58ffaede",
+            "name": "WKT",
+            "title": "Geometrie",
+            "description": "Géométrie du troncon (MultiLineString)",
+            "type": "MultiLineString",
+            "constraints": {
+                "required": true,
+                "unique": false
+            }
+        },
+        {
             "id": "27132b6e76e80978a25e6d3362ce0fa0",
             "name": "LARG_M_ER",
             "title": "LARG_MAX_ER",
