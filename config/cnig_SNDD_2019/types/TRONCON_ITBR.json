@@ -183,8 +183,8 @@
         },
         {
             "id": "8097f5e9119e913202f415100434c9ae",
-            "name": "CONTRIBUTEUR",
-            "title": "CONTRIBUTEUR",
+            "name": "CONTRIB",
+            "title": "CONTRIB",
             "description": "Nom du producteur de la donnée du tronçon",
             "type": "String",
             "constraints": {
@@ -361,7 +361,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "pattern": "^[1-3]{1}[0-9]{1}(?:\\,(\\d{1,1}))?$"
+                "pattern": "^([3-9]|[1-2][0-9]|30)(?:\\,(\\d{1,1}))?$"
             }
         },
         {

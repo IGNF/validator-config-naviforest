@@ -21,10 +21,11 @@
             "name": "LOCALISANT",
             "title": "LOCALISATION",
             "description": "Localisation GPS du point contrainte en WGS84",
-            "type": "Point",
+            "type": "String",
             "constraints": {
                 "required": true,
-                "unique": false
+                "unique": false,
+                "pattern": "[+-][0-9]{2}(?:\\,(\\d{1,4}))?[+-][0-9]{3}(?:\\,(\\d{1,4}))?$"
             }
         },
         {

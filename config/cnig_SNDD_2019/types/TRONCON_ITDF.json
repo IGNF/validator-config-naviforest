@@ -100,31 +100,15 @@
             }
         },
         {
-            "id": "46c416c42a70a9151c144bad60f92929",
+            "id": "28707f3f5e3ea4eb902b6c16026e225b",
             "name": "LARGEUR",
             "title": "LARGEUR",
             "description": "Largeur moyenne de la bande roulante du tronçon en mètres",
-            "type": "Integer",
+            "type": "String",
             "constraints": {
-                "required": true,
+                "required": false,
                 "unique": false,
-                "enum": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    5,
-                    6,
-                    7,
-                    8,
-                    9,
-                    10,
-                    11,
-                    12,
-                    13,
-                    14,
-                    15
-                ]
+                "pattern": "^([1-9]|1[0-5])$|<3|3-5|>5"
             }
         },
         {
@@ -199,8 +183,8 @@
         },
         {
             "id": "8097f5e9119e913202f415100434c9ae",
-            "name": "CONTRIBUTEUR",
-            "title": "CONTRIBUTEUR",
+            "name": "CONTRIB",
+            "title": "CONTRIB",
             "description": "Nom du producteur de la donnée du tronçon",
             "type": "String",
             "constraints": {
@@ -236,7 +220,7 @@
             }
         },
         {
-            "id": "86e608427213c90ee10139dbbe390c8f",
+            "id": "81d12f17fc985fff31e3f45fc367029d",
             "name": "CAT_TE",
             "title": "CAT_TE",
             "description": "Catégorie maximale de transport exceptionnel à laquelle appartient le tronçon",
@@ -376,7 +360,7 @@
             "constraints": {
                 "required": false,
                 "unique": false,
-                "pattern": "^[1-3]{1}[0-9]{1}(?:\\,(\\d{1,1}))?$"
+                "pattern": "^([3-9]|[1-2][0-9]|30)(?:\\,(\\d{1,1}))?$"
             }
         },
         {
@@ -407,24 +391,6 @@
                     "Revêtu",
                     "Empierré",
                     "Terrain naturel"
-                ]
-            }
-        },
-        {
-            "id": "81d12f17fc985fff31e3f45fc367029d",
-            "name": "CA_TE",
-            "title": "CA_TE",
-            "description": "Catégorie maximale de transport exceptionnel à laquelle appartient le tronçon",
-            "type": "String",
-            "constraints": {
-                "required": true,
-                "unique": false,
-                "enum": [
-                    "CAT1",
-                    "CAT2",
-                    "CAT3",
-                    "Non concerné",
-                    "Inconnu"
                 ]
             }
         },
